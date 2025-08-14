@@ -1,0 +1,23 @@
+{
+  "name": "udyam-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for Udyam Registration portal steps 1 & 2",
+  "main": "src/scraper.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/scraper.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "web-scraping",
+    "udyam",
+    "india"
+  ],
+  "author": "Harshit",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "fs-extra": "^11.3.1",
+    "puppeteer": "^24.16.1"
+  }
+}
